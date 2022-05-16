@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mr.wu&#39;s blog</title>
+  
+  <subtitle>Smile to life</subtitle>
+  <link href="http://reserved-boy.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://reserved-boy.github.io/"/>
+  <updated>2022-05-16T05:23:00.835Z</updated>
+  <id>http://reserved-boy.github.io/</id>
+  
+  <author>
+    <name>xiaowu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://reserved-boy.github.io/2022/05/16/hello-world/"/>
+    <id>http://reserved-boy.github.io/2022/05/16/hello-world/</id>
+    <published>2022-05-16T05:23:00.835Z</published>
+    <updated>2022-05-16T05:23:00.835Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
