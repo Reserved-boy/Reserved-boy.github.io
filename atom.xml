@@ -6,7 +6,7 @@
   <link href="http://reserved-boy.github.io/atom.xml" rel="self"/>
   
   <link href="http://reserved-boy.github.io/"/>
-  <updated>2022-05-17T16:30:06.928Z</updated>
+  <updated>2022-05-17T16:47:26.047Z</updated>
   <id>http://reserved-boy.github.io/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://reserved-boy.github.io/2022/05/18/wkn/"/>
-    <id>http://reserved-boy.github.io/2022/05/18/wkn/</id>
+    <title>学习hexo博客的搭建</title>
+    <link href="http://reserved-boy.github.io/2022/05/18/xue-xi-hexo-bo-ke-de-da-jian/"/>
+    <id>http://reserved-boy.github.io/2022/05/18/xue-xi-hexo-bo-ke-de-da-jian/</id>
     <published>2022-05-17T16:29:30.000Z</published>
-    <updated>2022-05-17T16:30:06.928Z</updated>
+    <updated>2022-05-17T16:47:26.047Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;吴康宁&quot;&gt;&lt;a href=&quot;#吴康宁&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h3 id=&quot;1-下载git和nodejs&quot;&gt;&lt;a href=&quot;#1-下载git和nodejs&quot; class=&quot;headerlink&quot;</summary>
         
       
     

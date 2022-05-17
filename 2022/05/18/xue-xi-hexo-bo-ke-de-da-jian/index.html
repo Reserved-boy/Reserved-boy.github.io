@@ -4,8 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, Mr.wu&#39;s blog">
-    <meta name="description" content="吴康宁">
+    <meta name="keywords" content="学习hexo博客的搭建, Mr.wu&#39;s blog">
+    <meta name="description" content="1.下载git和nodejsnodejs下载之后需要进行环节变量的配置
+2.配置淘宝云简写指令hexo n &amp;quot;我的第一篇文章&amp;quot;` 等价于 `hexo new &amp;quot;我的第一篇文章&amp;quot;` 还等价于`hexo ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -28,7 +29,7 @@
     </style>
 
 
-    <title>Hello World | Mr.wu&#39;s blog</title>
+    <title>学习hexo博客的搭建 | Mr.wu&#39;s blog</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -319,12 +320,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">学习hexo博客的搭建</h1>
                 </div>
             </div>
         </div>
@@ -473,7 +474,34 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="吴康宁"><a href="#吴康宁" class="headerlink" title="吴康宁"></a>吴康宁</h1>
+                <h3 id="1-下载git和nodejs"><a href="#1-下载git和nodejs" class="headerlink" title="1.下载git和nodejs"></a>1.下载git和nodejs</h3><p>nodejs下载之后需要进行环节变量的配置</p>
+<h3 id="2-配置淘宝云"><a href="#2-配置淘宝云" class="headerlink" title="2.配置淘宝云"></a>2.配置淘宝云</h3><h3 id="简写指令"><a href="#简写指令" class="headerlink" title="简写指令"></a>简写指令</h3><pre><code>hexo n &quot;我的第一篇文章&quot;` 等价于 `hexo new &quot;我的第一篇文章&quot;` 还等价于`hexo new post &quot;我的第一篇文章&quot;`
+`hexo p` 等价于 `hexo publish`
+`hexo g` 等价于 `hexo generate`
+`hexo s`等价于 `hexo server`
+`hexo d` 等价于 `hexo deploy` `hexo deploy -g` 等价于 `hexo deploy --generate` `hexo generate -d`等价于`hexo generate --deploy
+</code></pre>
+<h3 id="指令说明"><a href="#指令说明" class="headerlink" title="指令说明"></a>指令说明</h3><p>hexo server #Hexo 会监视文件变动并自动更新，除修改站点配置文件外,无须重启服务器,直接刷新网页即可生效。</p>
+<p>hexo server -s #以静态模式启动</p>
+<p>hexo server -p 5000 #更改访问端口 (默认端口为4000，’ctrl + c’关闭server)</p>
+<p>hexo server -i 192.168.1.1 #自定义 IP</p>
+<p>hexo cean #清除缓存 ,网页正常情况下可以忽略此条命令,执行该指令后,会删掉站点根目录下的public文件夹</p>
+<p>hexo g #生成静态网页 (执行 $ hexo g后会在站点根目录下生成public文件夹, hexo会将”&#x2F;blog&#x2F;source&#x2F;“ 下面的.md后缀的文件编译为.html后缀的文件,存放在”&#x2F;blog&#x2F;public&#x2F; “ 路径下)</p>
+<p>hexo d #将本地数据部署到远端服务器(如github)</p>
+<p>hexo init 文件夹名称 #初始化XX文件夹名称</p>
+<p>npm update hexo -g#升级</p>
+<p>npm install hexo -g#安装</p>
+<p>node-v #查看node.js版本号</p>
+<p>npm -v #查看npm版本号</p>
+<p>git –version #查看git版本号</p>
+<p>hexo -v #查看hexo版本号</p>
+<p>hexo publish [layout] <title> #通过 publish 命令将草稿移动到 source&#x2F;_posts 文件夹,如:$ hexo publish [layout] <title>,草稿默认是不会显示在页面中的，可在执行时加上 –draft 参数，或是把 render_drafts 参数设为 true来预览草稿。</p>
+<pre><code>hexo new aaa &quot;bbb&quot;` # 新建一篇文章,文章名称和标题分别为bbb.md 和 bbb. 文章采用aaa布局, 此时会在站点根目录下的----&gt;source-----&gt;_post文件夹下生成bbb.md文件, bbb.md文件的顶部(-----分割线上方区域,也称作Front matter区),生成
+`layout : aaa`
+`title:`
+`date:
+</code></pre>
+<h3 id="3-学习Markdown"><a href="#3-学习Markdown" class="headerlink" title="3. 学习Markdown"></a>3. <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/7771794c88a1" title="Markdown的教程">学习Markdown</a></h3>
                 
             </div>
             <hr/>
@@ -499,7 +527,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://Reserved-boy.github.io/2022/05/18/wkn/">http://Reserved-boy.github.io/2022/05/18/wkn/</a>
+                    <a href="http://Reserved-boy.github.io/2022/05/18/xue-xi-hexo-bo-ke-de-da-jian/">http://Reserved-boy.github.io/2022/05/18/xue-xi-hexo-bo-ke-de-da-jian/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -713,13 +741,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;Current
             </div>
             <div class="card">
-                <a href="/2022/05/18/wkn/">
+                <a href="/2022/05/18/xue-xi-hexo-bo-ke-de-da-jian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="学习hexo博客的搭建">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">学习hexo博客的搭建</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
