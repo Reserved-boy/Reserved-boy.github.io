@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <meta name="keywords" content="学习hexo博客的搭建, Mr.wu&#39;s blog">
     <meta name="description" content="1.下载git和nodejsnodejs下载之后需要进行环节变量的配置
-2.配置淘宝云简写指令hexo n &amp;quot;我的第一篇文章&amp;quot;` 等价于 `hexo new &amp;quot;我的第一篇文章&amp;quot;` 还等价于`hexo ">
+2.配置淘宝云简写指令hexo n &#34;我的第一篇文章&#34;` 等价于 `hexo new &#34;我的第一篇文章&#34;` 还等价于`hexo new post &#34;我的第一篇文章&#34;`
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -475,11 +476,11 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h3 id="1-下载git和nodejs"><a href="#1-下载git和nodejs" class="headerlink" title="1.下载git和nodejs"></a>1.下载git和nodejs</h3><p>nodejs下载之后需要进行环节变量的配置</p>
-<h3 id="2-配置淘宝云"><a href="#2-配置淘宝云" class="headerlink" title="2.配置淘宝云"></a>2.配置淘宝云</h3><h3 id="简写指令"><a href="#简写指令" class="headerlink" title="简写指令"></a>简写指令</h3><pre><code>hexo n &quot;我的第一篇文章&quot;` 等价于 `hexo new &quot;我的第一篇文章&quot;` 还等价于`hexo new post &quot;我的第一篇文章&quot;`
-`hexo p` 等价于 `hexo publish`
-`hexo g` 等价于 `hexo generate`
-`hexo s`等价于 `hexo server`
-`hexo d` 等价于 `hexo deploy` `hexo deploy -g` 等价于 `hexo deploy --generate` `hexo generate -d`等价于`hexo generate --deploy
+<h3 id="2-配置淘宝云"><a href="#2-配置淘宝云" class="headerlink" title="2.配置淘宝云"></a>2.配置淘宝云</h3><h3 id="简写指令"><a href="#简写指令" class="headerlink" title="简写指令"></a>简写指令</h3><pre class=" language-bash"><code class="language-bash">hexo n <span class="token string">"我的第一篇文章"</span><span class="token variable"><span class="token variable">`</span> 等价于 <span class="token variable">`</span></span>hexo new <span class="token string">"我的第一篇文章"</span><span class="token variable"><span class="token variable">`</span> 还等价于<span class="token variable">`</span></span>hexo new post <span class="token string">"我的第一篇文章"</span><span class="token variable"><span class="token variable">`</span>
+<span class="token variable">`</span></span>hexo p<span class="token variable"><span class="token variable">`</span> 等价于 <span class="token variable">`</span></span>hexo publish<span class="token variable"><span class="token variable">`</span>
+<span class="token variable">`</span></span>hexo g<span class="token variable"><span class="token variable">`</span> 等价于 <span class="token variable">`</span></span>hexo generate<span class="token variable"><span class="token variable">`</span>
+<span class="token variable">`</span></span>hexo s<span class="token variable"><span class="token variable">`</span>等价于 <span class="token variable">`</span></span>hexo server<span class="token variable"><span class="token variable">`</span>
+<span class="token variable">`</span></span>hexo d<span class="token variable"><span class="token variable">`</span> 等价于 <span class="token variable">`</span></span>hexo deploy<span class="token variable"><span class="token variable">`</span> <span class="token variable">`</span></span>hexo deploy -g<span class="token variable"><span class="token variable">`</span> 等价于 <span class="token variable">`</span></span>hexo deploy --generate<span class="token variable"><span class="token variable">`</span> <span class="token variable">`</span></span>hexo generate -d<span class="token variable"><span class="token variable">`</span>等价于<span class="token variable">`</span></span>hexo generate --deploy
 </code></pre>
 <h3 id="指令说明"><a href="#指令说明" class="headerlink" title="指令说明"></a>指令说明</h3><p>hexo server #Hexo 会监视文件变动并自动更新，除修改站点配置文件外,无须重启服务器,直接刷新网页即可生效。</p>
 <p>hexo server -s #以静态模式启动</p>
@@ -496,9 +497,9 @@
 <p>git –version #查看git版本号</p>
 <p>hexo -v #查看hexo版本号</p>
 <p>hexo publish [layout] <title> #通过 publish 命令将草稿移动到 source&#x2F;_posts 文件夹,如:$ hexo publish [layout] <title>,草稿默认是不会显示在页面中的，可在执行时加上 –draft 参数，或是把 render_drafts 参数设为 true来预览草稿。</p>
-<pre><code>hexo new aaa &quot;bbb&quot;` # 新建一篇文章,文章名称和标题分别为bbb.md 和 bbb. 文章采用aaa布局, 此时会在站点根目录下的----&gt;source-----&gt;_post文件夹下生成bbb.md文件, bbb.md文件的顶部(-----分割线上方区域,也称作Front matter区),生成
-`layout : aaa`
-`title:`
+<pre class=" language-bash"><code class="language-bash">hexo new aaa <span class="token string">"bbb"</span>` <span class="token comment" spellcheck="true"># 新建一篇文章,文章名称和标题分别为bbb.md 和 bbb. 文章采用aaa布局, 此时会在站点根目录下的---->source----->_post文件夹下生成bbb.md文件, bbb.md文件的顶部(-----分割线上方区域,也称作Front matter区),生成</span>
+<span class="token variable"><span class="token variable">`</span>layout <span class="token keyword">:</span> aaa<span class="token variable">`</span></span>
+<span class="token variable"><span class="token variable">`</span>title:<span class="token variable">`</span></span>
 `date:
 </code></pre>
 <h3 id="3-学习Markdown"><a href="#3-学习Markdown" class="headerlink" title="3. 学习Markdown"></a>3. <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/7771794c88a1" title="Markdown的教程">学习Markdown</a></h3>
