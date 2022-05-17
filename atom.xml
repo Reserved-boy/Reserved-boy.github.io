@@ -6,7 +6,7 @@
   <link href="http://reserved-boy.github.io/atom.xml" rel="self"/>
   
   <link href="http://reserved-boy.github.io/"/>
-  <updated>2022-05-16T05:23:00.835Z</updated>
+  <updated>2022-05-17T16:30:06.928Z</updated>
   <id>http://reserved-boy.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://reserved-boy.github.io/2022/05/18/wkn/"/>
+    <id>http://reserved-boy.github.io/2022/05/18/wkn/</id>
+    <published>2022-05-17T16:29:30.000Z</published>
+    <updated>2022-05-17T16:30:06.928Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;吴康宁&quot;&gt;&lt;a href=&quot;#吴康宁&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
