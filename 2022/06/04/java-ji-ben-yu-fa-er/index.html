@@ -4,13 +4,13 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="java基本语法（上）, Mr.wu&#39;s blog">
-    <meta name="description" content="关键字与保留字关键字定义：被java语言赋予了特殊含义，用做专门用途的字符串（单词）
-特点：关键词中所有的字母都为小写
+    <meta name="keywords" content="java基本语法（下）, Mr.wu&#39;s blog">
+    <meta name="description" content="程序流程控制* 流程控制语句是用来控制程序中各语句执行顺序的语句。
+* 三种基本的流程结构：顺序结构、分支结构、循环结构。
 
-保留字现java版本尚未使用但是存在，可能以后被作为关键字。goto、const
+循环结构* 程序从上至下逐行执行，中间没任何跳转和判断
 
-标识符定义：java对各种变量、方">
+分支结构* 根据条件，选择性的执行某段代码，有if-el">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -33,7 +33,7 @@
     </style>
 
 
-    <title>java基本语法（上） | Mr.wu&#39;s blog</title>
+    <title>java基本语法（下） | Mr.wu&#39;s blog</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -324,12 +324,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">java基本语法（上）</h1>
+                    <h1 class="description center-align post-title">java基本语法（下）</h1>
                 </div>
             </div>
         </div>
@@ -481,78 +481,15 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="关键字与保留字"><a href="#关键字与保留字" class="headerlink" title="关键字与保留字"></a>关键字与保留字</h2><h3 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">定义：被java语言赋予了特殊含义，用做专门用途的字符串（单词）
-特点：关键词中所有的字母都为小写<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+                <h2 id="程序流程控制"><a href="#程序流程控制" class="headerlink" title="程序流程控制"></a>程序流程控制</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* 流程控制语句是用来控制程序中各语句执行顺序的语句。
+* 三种基本的流程结构：顺序结构、分支结构、循环结构。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<h3 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">现java版本尚未使用但是存在，可能以后被作为关键字。goto、const<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* 程序从上至下逐行执行，中间没任何跳转和判断<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">定义：java对各种变量、方法和类等腰命名时使用的字符序列称为标识符
-技巧：凡是自己可以命名的地方都叫标识符<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h3 id="分支结构"><a href="#分支结构" class="headerlink" title="分支结构"></a>分支结构</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* 根据条件，选择性的执行某段代码，有if-else和switch-case两种分支语句
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h3 id="定义合法标识符的规则"><a href="#定义合法标识符的规则" class="headerlink" title="定义合法标识符的规则"></a>定义合法标识符的规则</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">1.由26个英文字母大小写、0-9、_或$组成
-2.数字不可以开头
-3.不可以使用关键字和保留字，但能包含关键字和保留字
-4.java严格区分大小写，长度无限制
-5.标识符不能包含空格<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="java中的名称命名规范"><a href="#java中的名称命名规范" class="headerlink" title="java中的名称命名规范"></a>java中的名称命名规范</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">1.包名：多单词组成时所有字母都小写：xxxyyyzzz
-2.类名、接口名：多单词组成时，所有单词的首字母大写：XxxYyyZzz
-3.变量名、方法名：多单词组成时，第一个单词首字母小写，第二个单词开始每个单词首字母大写:xxxYyyZzz
-4.常量名：所有字母都大写，多单词时每个单词用下划线连接：XXX_YYY_ZZZ<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">变量的概念：
-1.内存中的一个存储区域
-2.该区域的数据可以在同一类型范围内不断变化
-3.变量是程序中最基本的存储单元。包含变量类型、变量名、和存储的值。
-
-变量的作用：
-1.用于在内存中保存数据
-
-使用变量时要注意：
-1.java中每个变量必须先声明在使用
-2.使用变量名来访问这个区域的数据
-3.变量的作用域：其定义所在的一对&#123;&#125;内
-4.变量只有在其作用域内才有效
-5.同一个作用域内，不能定义重名的变量<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="变量的分类"><a href="#变量的分类" class="headerlink" title="变量的分类"></a>变量的分类</h3><p>按数据类型分类</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">基本数据类型：数值型（整数类型（byte、short、int、long）、浮点类型（float、double））、字符型（char）、布尔型（boolean）
-引用数据类型：类（class）、接口（interface）、数组（[])<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<h2 id="强制类型转换和自动类型提升"><a href="#强制类型转换和自动类型提升" class="headerlink" title="强制类型转换和自动类型提升"></a>强制类型转换和自动类型提升</h2><h3 id="自动类型提升"><a href="#自动类型提升" class="headerlink" title="自动类型提升"></a>自动类型提升</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">当容量小的数据类型的变量与容量大的数据类型进行运算，结果自动提升为容量大的数据类型
-byte 、char 、 short --&gt; int --&gt; long --&gt; float --&gt; double
-注意：byte、char、short三种类型的变量做运算时，结果为int型<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="强制类型转换"><a href="#强制类型转换" class="headerlink" title="强制类型转换"></a>强制类型转换</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">自动类型提升运算的逆运算
-例：double d1 &#x3D; 12.3；
-    int i1 &#x3D; （int）d1；
-注意：1.需要使用强转符；
-      2.强制类型转换可能会导致精度丢失；<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="字符串类型：String"><a href="#字符串类型：String" class="headerlink" title="字符串类型：String"></a>字符串类型：String</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">注意：string不属于基本数据类型，属于引用数据类型
-声明string类型需要用双引号
-string可以和8种基本数据类型变量做运算，且运算只能是连接运算：+
-运算结果仍为string类型<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="进制的转换"><a href="#进制的转换" class="headerlink" title="进制的转换"></a>进制的转换</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* 所有数字在计算机底层都以二进制形式存在
-* 对于整数，有四种表示方式：
-      1.二进制：0-1；满2进1，以0b或0B开头
-	  2.八进制：1-7；满8进1，以数字0开头表示
-	  3.十进制：1-9；满10进1
-	  4.十六进制：1-9及A-F；满16进1，以0x或0X开头表示（A-F不区分大小写）
-	  
-原码 --&gt;(原码出符号位外，各个位取反）反码 --&gt;（反码+1） 补码
-注意：计算机底层都以补码的方式来存储数据！
-（十进制转化成二进制：除2取余的逆）<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* 算术运算符：+ - * &#x2F; ++ -- 
-* 赋值运算符: &#x3D;  (支持连续赋值）   扩展赋值运算符： +&#x3D; ， -+ ， *&#x3D; ， &#x2F;&#x3D; ， %&#x3D; 
-* 比较运算符（关系运算符）：&#x3D;&#x3D; ， ！&#x3D; ， &lt; ， &gt; ， &lt;&#x3D;  ，&gt;&#x3D; ，
-* 逻辑运算符：&amp;（逻辑与）、|（逻辑或）、！（逻辑非）
-              &amp;&amp;（短路与）、||（短路或）、^（逻辑异或）
-* 位运算符：&lt;&lt; （左移）， &gt;&gt;（右移） ， &gt;&gt;&gt;（无符号右移） ，&amp;（与运算） ， |（或运算） ，^（异或运算） ，~（取反运算）
-*三元运算符：（表达式1）？（表达式2）：（表达式3）；表达式1为true，结果为表达式2；否则结果为表达式3
-              注意：任意可以用三元运算符的都可以转化为if-else，反之，不成立。（两者都可以使用，优先选择三元运算符）<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="循环结构-1"><a href="#循环结构-1" class="headerlink" title="循环结构"></a>循环结构</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* 根据循环条件，重复性的执行某点代码，有while、do-while、for三种循环语句（foreach）；<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
                 
             </div>
             <hr/>
@@ -578,7 +515,7 @@ string可以和8种基本数据类型变量做运算，且运算只能是连接�
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://Reserved-boy.github.io/2022/06/04/java-ji-ben-yu-fa-shang/">http://Reserved-boy.github.io/2022/06/04/java-ji-ben-yu-fa-shang/</a>
+                    <a href="http://Reserved-boy.github.io/2022/06/04/java-ji-ben-yu-fa-er/">http://Reserved-boy.github.io/2022/06/04/java-ji-ben-yu-fa-er/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -787,11 +724,12 @@ string可以和8种基本数据类型变量做运算，且运算只能是连接�
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2022/06/04/java-ji-ben-yu-fa-xia/">
+                <a href="/2022/06/04/java-ji-ben-yu-fa-er/">
                     <div class="card-image">
                         
                         
@@ -807,9 +745,9 @@ string可以和8种基本数据类型变量做运算，且运算只能是连接�
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-06-04
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-06-04
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -818,6 +756,7 @@ string可以和8种基本数据类型变量做运算，且运算只能是连接�
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -828,13 +767,13 @@ string可以和8种基本数据类型变量做运算，且运算只能是连接�
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/05/19/xue-xi-da-jian-bo-ke/">
+                <a href="/2022/06/04/java-ji-ben-yu-fa-yi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="学习博客的搭建">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="java基本语法（上）">
                         
-                        <span class="card-title">学习博客的搭建</span>
+                        <span class="card-title">java基本语法（上）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -845,7 +784,7 @@ string可以和8种基本数据类型变量做运算，且运算只能是连接�
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-19
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-06-04
                             </span>
                         <span class="publish-author">
                             
