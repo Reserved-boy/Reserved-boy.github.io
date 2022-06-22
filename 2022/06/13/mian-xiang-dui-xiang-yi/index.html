@@ -4,13 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="java基本语法（二）, Mr.wu&#39;s blog">
-    <meta name="description" content="程序流程控制* 流程控制语句是用来控制程序中各语句执行顺序的语句。
-* 三种基本的流程结构：顺序结构、分支结构、循环结构。
-
-循环结构* 程序从上至下逐行执行，中间没任何跳转和判断
-
-分支结构* 根据条件，选择性的执行某段代码，有if-el">
+    <meta name="keywords" content="面向对象（一）, Mr.wu&#39;s blog">
+    <meta name="description" content="面向过程（pop）与面向对象（oop）
+二者都是一种思想，面向对象是相对于面向过程而言的。  面向过程，强调的是功能行为，以函数为最小单位，考虑怎么做。  面向对象，将功能封装进对象，强调具备了功能的对象，以类&amp;#x2F;对象为最小单位，考">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -33,7 +29,7 @@
     </style>
 
 
-    <title>java基本语法（二） | Mr.wu&#39;s blog</title>
+    <title>面向对象（一） | Mr.wu&#39;s blog</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -324,12 +320,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">java基本语法（二）</h1>
+                    <h1 class="description center-align post-title">面向对象（一）</h1>
                 </div>
             </div>
         </div>
@@ -457,7 +453,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-06-04
+                    2022-06-13
                 </div>
                 
 
@@ -481,62 +477,120 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="程序流程控制"><a href="#程序流程控制" class="headerlink" title="程序流程控制"></a>程序流程控制</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* 流程控制语句是用来控制程序中各语句执行顺序的语句。
-* 三种基本的流程结构：顺序结构、分支结构、循环结构。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<h3 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* 程序从上至下逐行执行，中间没任何跳转和判断<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h3 id="分支结构"><a href="#分支结构" class="headerlink" title="分支结构"></a>分支结构</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* 根据条件，选择性的执行某段代码，有if-else和switch-case两种分支语句
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h3 id="循环结构-1"><a href="#循环结构-1" class="headerlink" title="循环结构"></a>循环结构</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* 根据循环条件，重复性的执行某点代码，有while、do-while、for三种循环语句（foreach）；<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h2 id="键盘输入（Scanner）"><a href="#键盘输入（Scanner）" class="headerlink" title="键盘输入（Scanner）"></a>键盘输入（Scanner）</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* 实现步骤：1.导包：import java.util.Scanner
-            2.Scanner的实例化：Scanner sc &#x3D; new Scanner(System.in)
-		 3.调用Scanner类的相关方法来获取指定类型的变量
-           <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><ul>
-<li>数组是多个相同类型数据按一定顺序排列的集合，并使用一个名字命名。通过编号的方式对这些数据进行统一管理。</li>
-<li>数组名：</li>
-<li>下标（索引）：</li>
-<li>元素：</li>
-<li>数组的长度：</li>
+                <h2 id="面向过程（pop）与面向对象（oop）"><a href="#面向过程（pop）与面向对象（oop）" class="headerlink" title="面向过程（pop）与面向对象（oop）"></a>面向过程（pop）与面向对象（oop）</h2><blockquote>
+<p>二者都是一种思想，面向对象是相对于面向过程而言的。<br>  面向过程，强调的是功能行为，以函数为最小单位，考虑怎么做。<br>  面向对象，将功能封装进对象，强调具备了功能的对象，以类&#x2F;对象为最小单位，考虑谁来做。<br>  举例：人把大象装进冰箱<br>  1.面向过程：<br>  ① 把冰箱门打开<br>  ② 抬起大学塞进冰箱<br>  ③ 把冰箱门关闭<br>  2.面向对象：<br>  ①<br>  ②<br>  ③</p>
+</blockquote>
+<h2 id="java面向对象学习的三条主线"><a href="#java面向对象学习的三条主线" class="headerlink" title="java面向对象学习的三条主线"></a>java面向对象学习的三条主线</h2><ul>
+<li>1.java的类及类的成员</li>
+<li>2.面向对象的三大特征</li>
+<li>3.其他关键字</li>
 </ul>
-<blockquote>
-<p>数组的特点：1.有序排列<br>             2.数组属于引用数据类型，但数组元素可以是基本数据类型也可以是引用数据类型<br>             3.创建数组对象会在内存中开辟一整块连续的空间<br>             4.长度一旦确定就不能修改</p>
+<h3 id="java的类及类的成员"><a href="#java的类及类的成员" class="headerlink" title="java的类及类的成员"></a>java的类及类的成员</h3><blockquote>
+<p>java的类及类的成员：属性、方法、构造器；代码块、内部类(前三个必须掌握牢固）</p>
 </blockquote>
 <ul>
-<li><p>一维数组元素默认初始化值：数组元素是整型：0</p>
-</li>
-<li><pre><code>                  数组元素是浮点型：0.0
-</code></pre>
-<ul>
-<li><pre><code>                    数组元素是char类型：0
-</code></pre>
-<ul>
-<li><pre><code>                    数组元素是boolean：false
-</code></pre>
-</li>
+<li>类(field)：是对一类事物的描述，是抽象的，概念上的定义</li>
+<li>对象(method)：是实际存在的该类事物的每个个体。也称为实例(instance)。</li>
+<li>面向对象程序设计的重点就是类的设计，设计类就是设计类的成员。</li>
+<li>类和对象的使用(1.创建类，设计类的成员   2.创建类的对象    3.通过“对象.属性”或者“对象.方法”调用对象的结构)</li>
 </ul>
-</li>
+<h4 id="常见的另类的成员有："><a href="#常见的另类的成员有：" class="headerlink" title="常见的另类的成员有："></a>常见的另类的成员有：</h4><ul>
+<li>属性：对应类中的成员变量</li>
+<li>行为：对应类中的成员方法</li>
 </ul>
-</li>
-<li><pre><code>                  数组元素是引用数据类型：null
-</code></pre>
-</li>
-<li><p>二维数组元素默认初始化值：外层数组元素为数组元素地址值，内层元素和一维一样</p>
-</li>
-<li><p>注意：声明为int[][] arr &#x3D; new int[4][]; 外层调用为null（因为每个位置对应的一维数组还未定义，一维数组属于引用类型</p>
-</li>
-<li><pre><code>                                    内层不允许调用会报空指针异常
-</code></pre>
-</li>
+<h4 id="属性（成员变量）-vs-局部变量"><a href="#属性（成员变量）-vs-局部变量" class="headerlink" title="属性（成员变量） vs 局部变量"></a>属性（成员变量） vs 局部变量</h4><ul>
+<li>相同点</li>
 </ul>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">* int[] arr &#x3D; &#123;1,2,3,4,5&#125;;   &#x2F;&#x2F;这种声明属于类型推断
-* int[] arr[] &#x3D; new int[3][3]; &#x2F;&#x2F;这是正确的，声明的为二维数组<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">定义变量的格式相同
+先声明，后使用
+变量都有其对应的作用域<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="常见的几种排序算法"><a href="#常见的几种排序算法" class="headerlink" title="常见的几种排序算法"></a>常见的几种排序算法</h2>
+<ul>
+<li>不同点</li>
+</ul>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">1.在类中声明的位置不同：
+  属性（成员变量）：直接定义在类的一对&#123;&#125;内
+  局部变量:声明在方法内、方法形参、代码块内、构造器形参、构造器内部的变量
+
+2.权限修饰符的不同
+  属性：可以在声明属性时，指明其权限，使用权限修饰符
+        常见的权限修饰符：private、public、缺省、protected
+  局部变量：不可以使用权限修饰符
+
+3.默认初始化值的情况：
+  属性：类的属性，根据其类型，都有默认的初始化值
+        整型（byte、short、int、long） 0
+		浮点型（float、double） 0.0
+		字符型（char） 0（&#39;\u0000&#39;）
+		布尔型（boolean） false
+		引用数据类型（类、数组、接口） null    (注意：引用数据类型在内存中只可能存储 null 或 地址值）
+  
+  局部变量：没有默认初始化值。
+            意味着，我们在调用局部变量之前，一定要显式赋值。
+			特别的，形参在调用时赋值即可。
+			
+4.在内存中加载的位置
+  属性：加载到堆空间中（非static）
+  局部变量：加载到栈空间<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<ul>
+<li>return关键字的使用<br>1.使用范围：使用在方法体中<br>2.作用：结束方法；<br>    针对有返回值类型的方法，使用’return 数据’方法返回所要的数据；<br>    注意点：return关键字后面不可以声明执行语句。</li>
+</ul>
+<h4 id="匿名对象的使用"><a href="#匿名对象的使用" class="headerlink" title="匿名对象的使用"></a>匿名对象的使用</h4><p>1.理解：我们创建的对象，没有显式的赋给一个变量名，即为匿名对象。</p>
+<p>2.特征：匿名对象只能调用一次</p>
+<h4 id="方法的重载"><a href="#方法的重载" class="headerlink" title="方法的重载"></a>方法的重载</h4><ul>
+<li><p>概念：在同一个类中，允许存在一个以上的同名方法，只要他们的参数个数或者参数类型不同即可。</p>
+</li>
+<li><p>特点：与返回值类型无关，只看参数列表，其参数列表必须不同（参数个数或者参数类型）。调用时根据方法参数列表的不同来区别。</p>
+</li>
+</ul>
+<h4 id="可变个数的形参（jdk5-0新增内容）"><a href="#可变个数的形参（jdk5-0新增内容）" class="headerlink" title="可变个数的形参（jdk5.0新增内容）"></a>可变个数的形参（jdk5.0新增内容）</h4><ul>
+<li><p>可变个数的形参：允许直接定义能和多个实参相匹配的形参。</p>
+</li>
+<li><p>当调用可变个数形参的方法时，传入的参数个数可以是0，1，2……</p>
+</li>
+<li><p>可变个数形参的方法与本类中方法名相同，形参不同的方法之间构成重载。</p>
+</li>
+<li><p>可变个数形参的方法与本类中方法名相同，形参类型相同的数组之间不够成重载。</p>
+</li>
+<li><p>可变个数形参在方法的形参中，必须声明在末尾。</p>
+</li>
+<li><p>可变个数的形参在方法的形参中，最多只能声明一个可变个数形参。</p>
+</li>
+</ul>
+<h4 id="方法参数的值传递机制"><a href="#方法参数的值传递机制" class="headerlink" title="方法参数的值传递机制"></a>方法参数的值传递机制</h4><ul>
+<li><p>如果参数是基本数据类型，此时实参赋给形参的是实参真实存储的数据值。</p>
+</li>
+<li><p>如果参数是引用数据类型，此时实参赋给形参的是实参存储数据的地址值。</p>
+</li>
+</ul>
+<h4 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h4><ul>
+<li>概念：一个方法体内调用它自身。</li>
+</ul>
+<h3 id="面向对象的三大特征"><a href="#面向对象的三大特征" class="headerlink" title="面向对象的三大特征"></a>面向对象的三大特征</h3><blockquote>
+<p>面向对象的三大特征：封装性、继承性、多态性、(抽象性）</p>
+</blockquote>
+<h3 id="封装性"><a href="#封装性" class="headerlink" title="封装性"></a>封装性</h3><ul>
+<li><p>隐藏对象内部的复杂性，只对外公开简单的接口，便于外界调用，从而提高系统的可扩展性。</p>
+</li>
+<li><p>”高内聚、低耦合“：高内聚–类的内部数据操作细节自己完成，不允许外部干涉。低耦合–仅对外暴露少量的方法用于使用。</p>
+</li>
+</ul>
+<h4 id="封装性的体现需要权限修饰赋来配合"><a href="#封装性的体现需要权限修饰赋来配合" class="headerlink" title="封装性的体现需要权限修饰赋来配合"></a>封装性的体现需要权限修饰赋来配合</h4><blockquote>
+<p>java规定的4种权限（从小到大）：private、default（缺省）、protected、public<br>private：类内部<br>default：类内部；同一个包<br>protected：类内部；同一个包；不同包的子类<br>public：类内部；同一个包；不同包的子类；同一个工程</p>
+</blockquote>
+<ul>
+<li>4种权限修饰赋可以用来修饰类及类的内部结构：属性、方法、构造器、内部类</li>
+<li>修饰类只能使用default、public</li>
+</ul>
+<h3 id="构造器（构造方法-constructor）"><a href="#构造器（构造方法-constructor）" class="headerlink" title="构造器（构造方法 constructor）"></a>构造器（构造方法 constructor）</h3><p>构造器的作用：创建对象（A a &#x3D;new A() ，A()为构造器）</p>
+<blockquote>
+<p>注意：<br>1.如果没有显式的定义类的构造器的话，则系统会默认提供一个空参的构造器<br>2.定义构造器的格式：权限修饰符 类名（形参列表）{}</p>
+</blockquote>
+<h3 id="其他关键字"><a href="#其他关键字" class="headerlink" title="其他关键字"></a>其他关键字</h3><blockquote>
+<p>其他关键字：this、super、static、final、abstract、interface、package、import等</p>
+</blockquote>
+
                 
             </div>
             <hr/>
@@ -562,7 +616,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://Reserved-boy.github.io/2022/06/04/java-ji-ben-yu-fa-er/">http://Reserved-boy.github.io/2022/06/04/java-ji-ben-yu-fa-er/</a>
+                    <a href="http://Reserved-boy.github.io/2022/06/13/mian-xiang-dui-xiang-yi/">http://Reserved-boy.github.io/2022/06/13/mian-xiang-dui-xiang-yi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -775,13 +829,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2022/06/13/mian-xiang-dui-xiang-yi/">
+                <a href="/2022/06/22/web-xue-xi-ri-ji/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="面向对象（一）">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">面向对象（一）</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -792,7 +846,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-06-13
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-06-22
                         </span>
                         <span class="publish-author">
                             
@@ -812,13 +866,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/06/04/java-ji-ben-yu-fa-yi/">
+                <a href="/2022/06/04/java-ji-ben-yu-fa-er/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="java基本语法（一）">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="java基本语法（二）">
                         
-                        <span class="card-title">java基本语法（一）</span>
+                        <span class="card-title">java基本语法（二）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
